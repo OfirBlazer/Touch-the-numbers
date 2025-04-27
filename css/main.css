@@ -1,0 +1,41 @@
+body{
+    background-color: bisque;
+    user-select: none;
+    margin: auto;
+}
+.board{
+    table-layout: fixed;
+   margin: auto;
+   width: 400px;
+   height: 400px;
+    border-collapse: collapse;
+    border: 3px solid rgb(190, 79, 35);
+
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    color: gray;
+    text-shadow: 1px 1px 1px rgb(32, 130, 241);
+}
+td{
+    border: 3px solid brown;
+    text-align: center;
+    font-size: xx-large;
+}
+td:hover{
+    background-color: rgb(221, 186, 143);
+    cursor: pointer;
+}
+.mark{
+    background-color: rgb(221, 186, 143);
+}
+.btns{
+align-items: center;
+text-align: center;
+height: 10px;
+
+}
+.timer{
+    text-align: center;
+    font-size: xx-large;
+    font-family: fantasy;
+    color: orange;
+}
