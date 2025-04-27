@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Touch the Numbers</title>
+  </head>
+  <h1>proj name: Ofir touch-nums</h1>
+
+  <link rel="stylesheet" href="css/main.css" />
+
+  <body onload="onInit()">
+    <div class="btns">
+      <button class="btn btn1" onclick="onChangeDifficulty(4)">easy</button>
+      <button class="btn btn2" onclick="onChangeDifficulty(5)">medium</button>
+      <button class="btn btn3" onclick="onChangeDifficulty(6)">hard</button>
+    </div>
+
+    <p class="timer"></p>
+    <table class="board"></table>
+    <div class="mark"></div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
